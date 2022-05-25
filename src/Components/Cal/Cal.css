@@ -1,0 +1,27 @@
+.Cal-Wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+}
+.Cal-month {
+    background-color: rgb(232, 87, 87);
+    color: #fff;
+    text-align: center;
+    font-size: 8px;
+    height: 33%;
+    width: 100%;
+    z-index: 6;
+}
+.Cal-day {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    height: 67%;
+    width: 100%;
+    z-index: 6;
+}
