@@ -6,22 +6,35 @@
     justify-content: center;
     align-items: center;
     z-index: 6;
+    border-radius: 12px;
 }
 .Cal-month {
     background-color: rgb(232, 87, 87);
     color: #fff;
     text-align: center;
-    font-size: 8px;
+    font-size: 14px;
+    font-weight: 700;
     height: 33%;
     width: 100%;
     z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 .Cal-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     color: #000;
     text-align: center;
-    font-size: 14px;
+    font-size: 38px;
+    padding-bottom: 7px;
     height: 67%;
     width: 100%;
     z-index: 6;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }

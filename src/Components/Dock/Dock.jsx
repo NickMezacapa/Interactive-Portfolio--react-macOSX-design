@@ -24,10 +24,8 @@ const Dock = () => {
                     <img src={FinderIcon} alt="app icon" />
                 </div>
                 <div className="Dock-AppContainer_icon Dock-AppContainer_icon--siri">
-                    {/* <img src={SiriIcon} alt="app icon" /> */}
                 </div>
                 <div className="Dock-AppContainer_icon Dock-AppContainer_icon-scaleDown Dock-AppContainer_icon--empty">
-                    
                     <Cal id='Dock-AppContainer_calendar' />
                 </div>
                 <div className="Dock-AppContainer_icon">
@@ -62,6 +60,7 @@ const Dock = () => {
                 <div className="Dock-AppContainer_icon">
                     <img src={TerminalIcon} alt="app icon" />
                 </div>
+                <div className="Dock-AppContainer_opanActive"></div>
                 <div className="Dock-AppContainer_icon Dock-AppContainer_icon-scaleDown">
                     <img src={TrashFullIcon} alt="app icon" />
                 </div>

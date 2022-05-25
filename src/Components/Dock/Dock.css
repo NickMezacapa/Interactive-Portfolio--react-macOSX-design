@@ -39,8 +39,8 @@
     transition: 0.35s ease;
 }
 .Dock-AppContainer_icon img {
-    height: 60px;
-    width: 62px;
+    height: 58px;
+    width: 60px;
     transition: 0.35s ease;
 }
 .Dock-AppContainer_icon-scaleDown {
@@ -75,6 +75,10 @@
     font-size: 12px;
     text-align: center;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .FolderIcon img {
     height: 49px;
@@ -89,8 +93,21 @@
     background-size: cover;
     background-position: center;
     z-index: 2;
-    transform: scale(0.75);
+    transform: scale(0.72);
+}
+.Dock-AppContainer_icon--empty:hover {
+    transform: scale(0.94) translateY(-12px);
 }
 #Dock-AppContainer_calendar {
     z-index: 5;
+}
+.Dock-AppContainer_opanActive {
+    position: absolute;
+    bottom: 4.5%;
+    right: 11.4%;
+    z-index: 6;
+    width: 4px;
+    height: 4px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.65);
 }

@@ -66,5 +66,5 @@ const DT = () => {
   )
 }
 
-export default DT;
-export { monthName, day } from './DT.jsx';
+export default DT;/* 
+export { monthName, day } from './DT.jsx'; */

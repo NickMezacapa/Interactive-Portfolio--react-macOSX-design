@@ -30,6 +30,8 @@
     width: 35%;
     font-weight: 600;
     font-size: 14px;
+    max-width: 540px;
+    min-width: 540px;
 }
 .Nav-FlexContainer_right {
     display: flex;
@@ -37,6 +39,8 @@
     align-items: center;
     height: 100%;
     width: 28%;
+    min-width: 440px;
+    max-width: 440px;
 }
 .Nav-FlexContainer_left_ul,
 .Nav-FlexContainer_right_ul {
