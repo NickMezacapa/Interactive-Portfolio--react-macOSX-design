@@ -1,0 +1,14 @@
+.Date-Wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Date-month {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 0.5rem;
+}

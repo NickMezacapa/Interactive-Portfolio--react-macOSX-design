@@ -1,0 +1,92 @@
+.Nav-Wrapper {
+    height: 4%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav-Container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(83, 83, 83, 0.4);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border-bottom: 1px solid hsla(0,0%,59.2%,.3);
+    color: #fff;
+    padding: 0 1rem;
+}
+.Nav-FlexContainer_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    font-weight: 600;
+    font-size: 14px;
+}
+.Nav-FlexContainer_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 28%;
+}
+.Nav-FlexContainer_left_ul,
+.Nav-FlexContainer_right_ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.Nav-FlexContainer_left_ul li:hover,
+.Nav-FlexContainer_right_ul li:hover {
+    cursor: pointer;
+}
+#Nav-FlexContainer_name {
+    font-size: 16px;
+    margin-left: -1rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+    transition: 0.35s ease;
+}
+#Nav-FlexContainer_name:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.Nav-FlexContainer_icons {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 1.5rem;
+}
+.Nav-FlexContainer_siri {
+    height: 100%;
+    width: 10%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#Nav-FlexContainer_siri_icon {
+    transform: scale(0.04);
+}
+.Nav-FlexContainer_date {
+    height: 100%;
+    width: 35%;
+}
